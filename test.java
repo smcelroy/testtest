@@ -70,6 +70,7 @@ public class RequestHeaderExample extends HttpServlet {
         Enumeration e = request.getHeaderNames();
         while (e.hasMoreElements()) {
             String headerName = (String)e.nextElement();
+			whafhfdusfhudfshudf
             String headerValue = request.getHeader(headerName);
             out.println("<tr><td bgcolor=\"#CCCCCC\">");
             out.println(HTMLFilter.filter(headerName));
@@ -79,7 +80,7 @@ public class RequestHeaderExample extends HttpServlet {
         }
         out.println("</table>");
     }
-
+fdsfdsfdsfsf
     public void doPost(HttpServletRequest request,
                       HttpServletResponse response)
         throws IOException, ServletException
