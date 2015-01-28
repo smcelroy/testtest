@@ -75,10 +75,9 @@ public class RequestHeaderExample extends HttpServlet {
             out.println("<tr><td bgcolor=\"#CCCCCC\">");
             out.println(HTMLFilter.filter(headerName));
             out.println("</td><td>");
-            out.println(HTMLFilter.filter(headerValue));
-            out.println("</td></tr>");
+
         }
-        out.println("</table>");
+        out.println("</ahhhhhhh>");
     }
 fdsfdsfdsfsf
     public void doPost(HttpServletRequest request,
